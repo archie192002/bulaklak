@@ -3,30 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flower</title>
-    <link rel="stylesheet" href="CSS/flowers.css">
-
+    <title>Happy Birthday, Future Med-Tech!</title>
+    <link rel="stylesheet" href="/CSS/birthday.css">
 </head>
 <body>
-    <h1>Getwell Doc!!!!<br><small>(click for more)</small></h1>
-    <div class="sunflwr">
-      <div class="sunflwr__leaf--left"></div>
-      <div class="sunflwr__leaf--right"></div>
-      <div class="sunflwr__stem"></div>
-      <div class="sunflwr__center"></div>
-      <div class="sunflwr__pedal--1"></div>
-      <div class="sunflwr__pedal--2"></div>
-      <div class="sunflwr__pedal--3"></div>
-      <div class="sunflwr__pedal--4"></div>
-      <div class="sunflwr__pedal--5"></div>
-      <div class="sunflwr__pedal--6"></div>
-      <div class="sunflwr__pedal--7"></div>
-      <div class="sunflwr__pedal--8"></div>
-      <div class="sunflwr__pedal--9"></div>
-      <div class="sunflwr__pedal--10"></div>
-      <div class="sunflwr__pedal--11"></div>
-      <div class="sunflwr__pedal--12"></div>
+    <div class="container">
+        <h1>Happy Birthday, Future Med-Tech!</h1>
+        <p>Click the button to reveal your surprise message!</p>
+        <button id="revealButton">🩺 Open Your Gift 🎁</button>
+        <div id="surpriseMessage" class="hidden">
+            <h2 class="heartbeat">💓 Surprise! 💓</h2>
+            <p>
+                Dear Future Med-Tech, <br>
+                Your passion for helping others and your dedication to your studies inspire everyone around you! 
+                Keep pursuing your dreams. Wishing you a fantastic birthday filled with all the joy you deserve! 🩺🎉<br><br>
+                Cheers to saving lives and making a difference! 👩‍⚕️👨‍⚕️
+            </p>
+            <img src="/IMG/DOC.jfif" alt="Med-Tech Birthday Image">
+            <p class="footer-text">Happy Birthday! Here's to many more amazing years ahead! 🎂🎈</p>
+
+            <audio id="bgMusic" autoplay loop>
+                <source src="/IMG/bini-cherry-on-top-official-music-video-wufux5p2ds8_87mJRKon.mp3" type="audio/mpeg">
+            </audio>
+            <button onclick="toggleMusic()">Mute/Unmute Music</button>
+
+        </div>
     </div>
-    <script src="JAVASCRIPT/flowers.js"></script>
+    <script src="/JAVASCRIPT/birthday.js"></script>
 </body>
 </html>
+
